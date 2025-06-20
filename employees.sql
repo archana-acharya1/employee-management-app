@@ -1,6 +1,6 @@
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
     name TEXT,
-    EMAIL TEXT UNIQUE,
+    email TEXT UNIQUE,
     department TEXT
 );
